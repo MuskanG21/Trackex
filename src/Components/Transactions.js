@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+ import React,{useState} from 'react'
 import {useGlobalContext} from '../context/globalContext'
 import styled from 'styled-components'
 import { dateFormat } from '../utils/dateFormat'
@@ -21,7 +21,7 @@ const Transactions = () => {
             <h5>Select Frequency</h5>
 <select value={freq} onChange={(e)=>setFreq(e.target.value)}>
     <option value="7">Last 1 Week</option>
-    <option value="30">Last 1 Month</option>
+    <option value="30">Las 1 Month</option>
     <option value="365">Last 1 Year</option>
 </select>
 
